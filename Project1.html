@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="Project1_style.css">
+    <title>Michael's Notes</title>
+  </head>
+
+  <body>
+    <div>
+      <h1>Important Concepts</h1>
+      <div class="lesson">
+        <h2>Table of Contents</h2>
+        <div class="section">
+          <ol>
+            <li><a href="#lesson-1">Lesson 1: The Basics of the Web and HTML</a>
+              <ul>
+                <li><a href="#lesson-1-1">How the Web Works</a></li>
+                <li><a href="#lesson-1-2">HTML</a></li>
+                <li><a href="#lesson-1-3">Tags and Elements</a></li>
+                <li><a href="#lesson-1-4">Inline vs Block Elements</a></li>
+              </ul>
+            </li>
+            <li><a href="#lesson-2">Lesson 2: Creating a Structured Document with HTML</a>
+              <ul>
+                <li><a href="#lesson-2-1">Developer Tools (in the browser)</a></li>
+                <li><a href="#lesson-2-2">The "Tree-Like Structures" of HTML</a></li>
+                <li><a href="#lesson-2-3">The Relationship between HTML and Boxes</a></li>
+                <li><a href="#lesson-2-4">Text Editors (for programming)</a></li>
+              </ul>
+            </li>
+            <li><a href="#lesson-3">Lesson 3: Adding CSS Style and HTML Structure</a>
+              <ul>
+                <li><a href="#lesson-3-1">Avoiding Repition</a></li>
+                <li><a href="#lesson-3-2">CSS</a></li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="lesson" id="lesson-1">
+        <h2>Lesson 1: Basics of the Web and HTML</h2>
+        <div class="section" id="lesson-1-1">
+          <h3>Basics of the Web</h3>
+          <div>
+            <p>
+              The world wide web is made up of network of communicating computers and servers which share data through the use of <em>HTTP (Hyper text Transfer Protocol)</em>, a protocol used by the web to request information that is stored on a <em>server</em> through an <em>HTTP Request</em> from a <em>browser</em> on a personal computer. The browser then recieves information from the server, and interprets the information to display to the user.
+            </p>
+          </div>
+        </div>
+        <div class="section" id="lesson-1-2">
+          <h3>HTML</h3>
+          <div>
+            <p>
+              <em>HTML</em>, also known as <em>Hyper Text Markup Language</em>, is the language used by the web to describe to browsers what users should see, in the form of <em>text content</em>, and what it should look like, which is
+              <em>markup</em>. HTML can also reference other documents, such as videos and music, and it can also provide links to other pages, in the form of <em>hyperlinks</em>.
+            </p>
+          </div>
+        </div>
+        <div class="section" id="lesson-1-3">
+          <h3>Tags and Elements</h3>
+          <div>
+            <p>
+              An HTML document is made up of <em>elements</em>, which modify text content, provide links to other HTML documents, or reference other documents. These elements are comprised of <em>tags</em>, which tell the browser what type of element is being
+              used. Some examples of tags include emphasis (em), bold (b), anchor (a), image (img), break (br), and paragraph (p).
+            </p>
+            <p>
+              These tags may also contain attributes, which adds a value to the tag. For example, the anchor tag uses the href attribute, where the value references a url which links the content of the element to another page.
+            </p>
+            <p>
+              As the computer interprets the instructions from the HTML document literally, it can be thought of as stupid. This is because a small mistake in the language created by the programmer could cause huge problems, as the computer might not be able to interpret
+              it as it can only follow strict instructions.
+            </p>
+          </div>
+        </div>
+        <div class="section" id="lesson-1-4">
+          <h3>Inline vs. Block Elements</h3>
+          <div>
+            <p>
+              HTML elements are either <em>block</em> or <em>inline</em>. Block elements form a box around the content, which separates it from the rest of the text, while inline elements are in the general body of text, and do not have the box surrounding
+              them.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="lesson" id="lesson-2">
+        <h2>Lesson 2: Creating a Structured Document with HTML</h2>
+        <div class="section" id="lesson-2-1">
+          <h3>Developer Tools (in the browser)</h3>
+          <div>
+            <p>
+              Some browsers contain developer tools like <em>DOM</em>, "Developer Object Mode", which allows developers to visually view the "tree-like structure" of the HTML and the effect of the CSS on style for the blocks, or boxes.
+            </p>
+          </div>
+        </div>
+        <div class="section" id="lesson-2-2">
+          <h3>The "Tree-Like Structures" of HTML</h3>
+          <div>
+            <p>
+              The "tree-like structure" of HTML is that HTML elements often have other HTML elements of them with more HTML elements inside of them and so on. This creates relationships between and within elements with can look like a family tree, hence the "tree-like
+              structure".
+            </p>
+          </div>
+        </div>
+        <div class="section" id="lesson-2-3">
+          <h3>The Relationship between HTML and Boxes</h3>
+          <div>
+            <p>
+              When viewing an HTML document, you can often see a "wave" occuring due to the tags. This can be used to see the HTML elements, or boxes, and how they are nested inside each other and how they relate to each other. It can also show how deeply nested a
+              box is, based on how far the indentation is for its corresponding code.
+            </p>
+          </div>
+        </div>
+        <div class="section" id="lesson-2-4">
+          <h3>Text Editors (for programming)</h3>
+          <div>
+            <p>
+              For viewing the "wave" mentioned in the previous section, it is made a lot easier by special text editors (like Sublime Text) which are specially made for programming. These editors automatically indent based on how much a box is nested, and can also
+              generate a closing tag when an opening tag is written into the code.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="lesson" id="lesson-3">
+        <h2>Lesson 3: Adding CSS Style and HTML Structure</h2>
+        <div class="section" id="lesson-3-1">
+          <h3>Avoiding Repition</h3>
+          <div>
+            <p>
+              Avoiding repition in coding is important for two major reasons, avoiding making errors and ability to easily change style. By avoiding repeating code, programmers can reduce the chance that will be an error in one of the repeated elements. This also helps as it decreases the amount of time a programmer is looking for the element or elements causing problems. By having the style choices in a single place instead of repeated, it becomes a lot easier to change the style choices.
+            </p>
+          </div>
+        </div>
+        <div class="section" id="lesson-3-2">
+          <h3>CSS</h3>
+          <div>
+            <p>
+              <em>CSS</em>, or Cascading Style Sheets, is coding that controls the style of the HTML elements. This is done by coding styles in the CSS document to different classes that are used by elements the HTML document. All of the elements with the class will then have the same style applied to them.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

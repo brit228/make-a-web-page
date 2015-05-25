@@ -1,0 +1,43 @@
+body {
+	font-family: arial;
+	background-color: white;
+}
+
+.section {
+	background-color: white;
+	border-radius: 4px;
+	padding: 4px;
+	margin: 10px;
+}
+
+.lesson {
+	background-color: lightblue;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 24px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	margin: 12px;
+}
+
+h2 {
+	margin: 10px;
+	color: white;
+	border-radius: 8px;
+	padding: 4px;
+	background-color: orange;
+}
+
+h3 {
+	text-align: center;
+	margin: 8px;
+}
+
+p {
+	margin: 6px;
+}
